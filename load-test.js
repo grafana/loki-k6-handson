@@ -1,3 +1,5 @@
+import exec from 'k6/execution';
+
 export const options = {
     stages: [
         { duration: '1m', target: 20 },

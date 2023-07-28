@@ -30,4 +30,4 @@ Let the test run for few minutes
 
 ## Find your data in Loki
 
-Go to Explore in Grafana, and select the Loki datasource.
+Go to Explore in Grafana, and select the Loki datasource called `grafanacloud-mystack-logs`. Select the label `foo` and value `bar`, then run the query. You should see some logs now.

@@ -1,4 +1,4 @@
-# Loki logs producer hands-on
+# Loki + k6: "Produce logs and query them" hands-on
 
 ## Create a Grafana Cloud stack
 
@@ -36,7 +36,7 @@ Go to Explore in Grafana, and select the Loki datasource called `grafanacloud-my
 
 ## Play with Explore mode
 
-Open a log line from the previous query. You can see the content, but in the structured result, you only have the labels (app and foo). You can't use the content as key/value pairs
+Open a log line from the previous query. You can see the content, but in the structured result, you only have the labels (app and foo). You can't use the content as key/value pairs.
 
 The LogQL builder is giving you a hint: "Add a logfmt parser". Click on it and run the query. Open one of the log line. You should now see the content as a key/value pair. logfmt is `key=value otherkey=othervalue` format. The builder caught it from the results and told you he can give you actionable results. Now it gives you another hint: "Add label filter" click on it and set Label as VirtualUserID and value as 5, then run the query.
 

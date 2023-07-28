@@ -1,4 +1,6 @@
 import exec from 'k6/execution';
+import sleep from 'k6/sleep';
+import http from 'k6/http';
 
 export const options = {
     stages: [

@@ -17,12 +17,8 @@ We will save all informations needed to write to Loki in k6
 
 ## Create the k6 scripts
 
-Create a new project in Grafana Cloud k6, and create the script
+Create a new project in Grafana Cloud k6, and start editing the script
 
-Copy paste the provided script:
-
-`Script to come here`
+Copy paste the provided script: load-test.js
 
 ## Run the test
-
-Click on RUN

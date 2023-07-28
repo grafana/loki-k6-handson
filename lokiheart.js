@@ -56,7 +56,13 @@ let rx= -0.1752099746981364;
 let ry= 51.494115339030685;
 line1[0]= ""+start;
 line1[1]="longitude="+(rx+x)+" latitude="+(ry+y)+ " value="+Math.random();
-    
+
+/* if you want to have json logs instead of logfmt
+let json='{"longitude":'+(rx+x)+', "latitude":'+(ry+y)+', "value":'+Math.random()+'}';
+console.log("JSON: "+ json);
+line1[1]= json;
+*/
+  
 let v1=data.streams[0].values[0]= line1;
 
 let url= "https://"+__ENV.LOKIUSER+":"+__ENV.LOKITOKEN+"@"+__ENV.LOKIURL+"/loki/api/v1/push";

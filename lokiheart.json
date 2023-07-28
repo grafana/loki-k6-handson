@@ -2,7 +2,7 @@
   "__inputs": [
     {
       "name": "DS_GRAFANACLOUD-EMILSIEMES-LOGS",
-      "label": "grafanacloud-emilsiemes-logs",
+      "label": "You Grafana Cloud Logs stack (grafanacloud-MYSTACK-logs)",
       "description": "",
       "type": "datasource",
       "pluginId": "loki",

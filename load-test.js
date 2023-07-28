@@ -43,7 +43,7 @@ export default function main() {
     let v1 = data.streams[0].values[0] = line1;
     data.streams[0].values[1] = line2;
     
-    let url = "https://" + __ENV.LOKUSER + ":" + __ENV.LOKITOKEN + "@" + __ENV.LOKIURL + "/loki/api/v1/push";
+    let url = "https://" + __ENV.LOKIUSER + ":" + __ENV.LOKITOKEN + "@" + __ENV.LOKIURL + "/loki/api/v1/push";
     
     let res = http.post(url, JSON.stringify(data), {
         headers: { 'Content-Type': 'application/json' },

@@ -11,7 +11,8 @@ We will save all informations needed to write to Loki in k6
 Log into your [Grafana.com account](https://grafana.com/auth/sign-in/) to find and create relevant informations
 In another tab, open your Grafana.
 
-- Create an API Token. The link to the menu is on the left: Security > API Tokens. Use *Admin* or *Metrics Publisher*
+- Click on *Details* next to Loki to see all details.
+- Create an API Token by clicking on *Generate now*
 - In Grafana, copy-paste it into your k6 > Environnement variables as `LOKITOKEN`
 - Go back to the overview of your stack (click on its name on the left). Find the URL of your Loki cluster by clicking on *Details*
 - In Grafana, save it **without the https://** into a new k6 variables as `LOKIURL` (ex: logs-prod-012.grafana.net)

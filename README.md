@@ -14,9 +14,9 @@ In another tab, open your Grafana.
 - Click on *Details* next to Loki to see all details.
 - Create an API Token by clicking on *Generate now*
 - In Grafana, copy-paste it into your k6 > Environnement variables as `LOKITOKEN`
-- Go back to the overview of your stack (click on its name on the left). Find the URL of your Loki cluster by clicking on *Details*
+- Copy paste the domain name of your Loki cluster
 - In Grafana, save it **without the https://** into a new k6 variables as `LOKIURL` (ex: logs-prod-012.grafana.net)
-- Find the user for your Loki cluster just under the URL. It should be some numbers
+- Find the user for your Loki cluster just under the URL. It should be a number (ex: 123456)
 - In Grafana, save it into a new k6 variables as `LOKIUSER`
 
 ## Create the k6 scripts

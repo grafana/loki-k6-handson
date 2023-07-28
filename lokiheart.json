@@ -166,7 +166,7 @@
             "uid": "${DS_GRAFANACLOUD-EMILSIEMES-LOGS}"
           },
           "editorMode": "code",
-          "expr": "{app=\"lokiheart\"} |= `longitude` | logfmt",
+          "expr": "{app=\"lokiheart\"} | logfmt",
           "queryType": "range",
           "refId": "A"
         }

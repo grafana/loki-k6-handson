@@ -22,7 +22,7 @@ In another tab, open your Grafana.
 ## Create the k6 scripts
 
 Create a new project in Grafana Cloud k6, and start editing the script
-Copy paste the provided script: load-test.js and save
+Copy paste the provided script: `load-test.js` and save
 
 ## Run the test
 
@@ -44,3 +44,13 @@ Looking at the result, you can only see log lines with this VirtualUserID.
 
 **You successfully queried, parsed and filtered logs that were not fully indexed.**
 Now let's look at more advanced use case and Logs to Metrics cases.
+
+---
+
+# Let's create a heart on the map of London
+
+Create a new test in k6 using the `lokiheart.js` and run it.
+
+While it run, import the dashboard `lokiheart.json` and select your own Loki datasource.
+
+Once the run is complete, you should see a red heart made of circles on London !

@@ -16,16 +16,15 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Grafana][https://img.shields.io/badge/GRAFANA-F46800?style=for-the-badge&logo=grafana&logoColor=white]][https://grafana.com/docs/grafana/latest/]
-[![Grafana Loki][https://img.shields.io/badge/GRAFANA%20LOKI-f7d01f?style=for-the-badge&logo=grafana&logoColor=black]][https://grafana.com/docs/loki/latest/]
-[![k6][https://img.shields.io/badge/K6-7D64FF?style=for-the-badge&logo=k6&logoColor=white]][https://k6.io/docs/]
+![Grafana](https://img.shields.io/badge/GRAFANA-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Grafana Loki](https://img.shields.io/badge/GRAFANA%20LOKI-f7d01f?style=for-the-badge&logo=grafana&logoColor=black)
+![k6](https://img.shields.io/badge/K6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <h3 align="center">Loki + k6: "Produce logs and query them" hands-on</h3>
-
   <p align="center">
     A quick hands-on where you will create logs using k6, send them to Loki, query them, and vizualize them.
   </p>
@@ -35,7 +34,7 @@
 ## Create a Grafana Cloud stack
 
 Create a Grafana Cloud Free account. **No credit card** required.
-[![Create a free account][https://img.shields.io/badge/CREATE%20A%20CLOUD%20ACCOUNT-F46800?style=for-the-badge&logo=grafana&logoColor=white]][https://grafana.com/auth/sign-up/create-user?cta=create-free-account]
+[![Create a free account](https://img.shields.io/badge/CREATE%20A%20CLOUD%20ACCOUNT-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/auth/sign-up/create-user?cta=create-free-account)
 
 ---
 

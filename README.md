@@ -34,6 +34,7 @@
 ## Create a Grafana Cloud stack
 
 Create a Grafana Cloud Free account. **No credit card** required.
+
 [![Create a free account](https://img.shields.io/badge/CREATE%20A%20CLOUD%20ACCOUNT-F46800?style=for-the-badge&logo=grafana&logoColor=white)](https://grafana.com/auth/sign-up/create-user?cta=create-free-account)
 
 ---

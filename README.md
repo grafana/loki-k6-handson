@@ -1,10 +1,45 @@
-# Loki + k6: "Produce logs and query them" hands-on
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Grafana][https://img.shields.io/badge/GRAFANA-F46800?style=for-the-badge&logo=grafana&logoColor=white]][https://grafana.com/docs/grafana/latest/]
+[![Grafana Loki][https://img.shields.io/badge/GRAFANA%20LOKI-f7d01f?style=for-the-badge&logo=grafana&logoColor=black]][https://grafana.com/docs/loki/latest/]
+[![k6][https://img.shields.io/badge/K6-7D64FF?style=for-the-badge&logo=k6&logoColor=white]][https://k6.io/docs/]
+
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">Loki + k6: "Produce logs and query them" hands-on</h3>
+
+  <p align="center">
+    A quick hands-on where you will create logs using k6, send them to Loki, query them, and vizualize them.
+  </p>
+</div>
+
+<!-- CREATE AN ACCOUNT -->
 ## Create a Grafana Cloud stack
 
 Create a Grafana Cloud Free account. **No credit card** required.
+[![Create a free account][https://img.shields.io/badge/CREATE%20A%20CLOUD%20ACCOUNT-F46800?style=for-the-badge&logo=grafana&logoColor=white]][https://grafana.com/auth/sign-up/create-user?cta=create-free-account]
 
-## Save credentials for k6
+---
+
+## Configure credentials for k6
 
 We will save all informations needed to write to Loki in k6
 
@@ -54,3 +89,18 @@ Create a new test in k6 using the `lokiheart.js` and run it.
 While it run, import the dashboard `lokiheart.json` and select your own Loki datasource.
 
 Once the run is complete, you should see a red heart made of circles on London !
+
+---
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+Some useful ressources from GrafanaLabs and friends:
+
+* [TNS: The New Stack - LGTM demo](https://github.com/grafana/tns)
+* [Web Shop O11y demo](https://github.com/Condla/web-shop-o11y-demo)
+* [On demand videos and webinars](https://grafana.com/videos/)
+* [Docs for LGTM, k6, OnCall, etc.](https://grafana.com/docs/)
+* [Next GrafanaLabs events](https://grafana.com/about/events/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

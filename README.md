@@ -8,23 +8,14 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-![Grafana](https://img.shields.io/badge/GRAFANA-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Grafana Loki](https://img.shields.io/badge/GRAFANA%20LOKI-f7d01f?style=for-the-badge&logo=grafana&logoColor=black)
-![k6](https://img.shields.io/badge/K6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <h3 align="center">Loki + k6: "Produce logs and query them" hands-on</h3>
+  <img alt="Static Badge" style="border-radius:16px" src="https://img.shields.io/badge/GRAFANA-F46800?style=for-the-badge&logo=grafana&logoColor=white">
+  <img alt="Static Badge" style="border-radius:16px" src="https://img.shields.io/badge/GRAFANA%20LOKI-f7d01f?style=for-the-badge&logo=grafana&logoColor=black">
+  <img alt="Static Badge" style="border-radius:16px" src="https://img.shields.io/badge/K6-7D64FF?style=for-the-badge&logo=k6&logoColor=white">
   <p align="center">
     A quick hands-on where you will create logs using k6, send them to Loki, query them, and vizualize them.
   </p>
